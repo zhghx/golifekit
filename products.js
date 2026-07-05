@@ -29,7 +29,7 @@ const PRODUCTS = [
       { title: 'Ready in one click', text: 'Duplicate the whole bundle into your Notion in seconds — nothing to configure.' },
       { title: 'Save 45%+', text: 'Buying the bundle costs far less than picking up each template separately.' },
     ],
-    checkout: '#',
+    checkout: 'https://www.creem.io/payment/prod_1AMIsd4fShuCzguyQkw3kM',
   },
   {
     id: 'habit-tracker',
