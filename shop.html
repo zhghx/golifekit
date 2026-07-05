@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — GoLifeKit Templates</title>
+  <meta name="description" content="Browse all GoLifeKit templates — habit tracker, budget planner, goal planner, and the complete toolkit bundle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Nav ===== -->
+  <header class="nav">
+    <div class="wrap">
+      <a href="index.html" class="brand"><span class="logo">◆</span> GoLifeKit</a>
+      <nav class="nav-links">
+        <a href="index.html#features">Features</a>
+        <a href="shop.html">Shop</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="product.html?id=complete-kit" class="btn btn-primary nav-cta">Get the Kit</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Shop header ===== -->
+  <section class="shop-hero">
+    <div class="wrap">
+      <span class="eyebrow">The collection</span>
+      <h1>All GoLifeKit templates</h1>
+      <p>Grab the full toolkit and save, or pick up just the template you need. Every purchase is one-time, with free lifetime updates.</p>
+    </div>
+  </section>
+
+  <!-- ===== Product list ===== -->
+  <section class="shop">
+    <div class="wrap">
+      <div class="shop-grid" id="product-grid">
+        <!-- rendered by products.js; fallback shown if JS is disabled -->
+        <noscript><p style="text-align:center;color:var(--text-muted);">Please enable JavaScript to browse products, or <a href="index.html#pricing">see the bundle on our home page</a>.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <div class="brand"><span class="logo">◆</span> GoLifeKit</div>
+          <p class="footer-about">A plug-and-play Notion toolkit that helps organized-minded people track habits, manage money, and reach their goals — all in one calm place.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Product</h4>
+            <a href="index.html#features">Features</a>
+            <a href="shop.html">Shop</a>
+            <a href="index.html#faq">FAQ</a>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:hello@golifekit.com">hello@golifekit.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 GoLifeKit. All rights reserved.</span>
+        <span>Made for people who want their life together.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script>renderShop('product-grid');</script>
+</body>
+</html>
