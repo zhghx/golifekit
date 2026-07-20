@@ -1,355 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GoLifeKit — Organize Your Whole Life in One Kit</title>
-  <meta name="description" content="GoLifeKit is a plug-and-play Notion toolkit for habit tracking, budgeting, and goal planning. Get your life organized in minutes — one time payment, lifetime access." />
-  <meta property="og:title" content="GoLifeKit — Organize Your Whole Life in One Kit" />
-  <meta property="og:description" content="A plug-and-play Notion toolkit for habit tracking, budgeting, and goal planning." />
-  <meta property="og:type" content="website" />
+  <meta name="description" content="GoLifeKit 模型云平台：一个入口，在线使用 Claude、GPT、Grok 与 Gemini 等主流大模型。" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>GoLifeKit · 模型云平台</title>
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
 
-  <!-- ===== Nav ===== -->
-  <header class="nav">
-    <div class="wrap">
-      <a href="#top" class="brand">
-        <span class="logo">◆</span>
-        GoLifeKit
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="GoLifeKit 首页">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>GoLifeKit</span>
       </a>
-      <nav class="nav-links">
-        <a href="#features">Features</a>
-        <a href="shop.html">Shop</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
-        <a href="product.html?id=complete-kit" class="btn btn-primary nav-cta">Get the Kit</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#features">功能</a>
+        <a href="#pricing">价格</a>
+        <a href="#faq">常见问题</a>
       </nav>
+      <a class="button button-small" href="https://shop-28c62905-6d8b-4cc0-cc666737c8c6.golifekit.com/buy/1" target="_blank" rel="noopener">开始使用 <span aria-hidden="true">↗</span></a>
     </div>
   </header>
 
-  <!-- ===== Hero ===== -->
-  <section class="hero" id="top">
-    <div class="wrap">
-      <span class="eyebrow">The all-in-one life system</span>
-      <h1>GoLifeKit</h1>
-      <p class="lead">One clean Notion toolkit to track your habits, manage your money, and hit your goals — so your whole life finally lives in one calm, organized place.</p>
-      <div class="hero-cta">
-        <a href="product.html?id=complete-kit" class="btn btn-primary btn-lg">Get GoLifeKit — $19</a>
-        <a href="shop.html" class="btn btn-ghost btn-lg">Browse all templates</a>
-      </div>
-      <p class="hero-note"><strong>One-time payment.</strong> Lifetime access &amp; free updates. 14-day money-back guarantee.</p>
-    </div>
-  </section>
-
-  <!-- ===== Pain points ===== -->
-  <section class="pain" id="pain">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Sound familiar?</h2>
-        <p>You want your life together, but the tools are scattered everywhere — and nothing ever sticks.</p>
-      </div>
-      <div class="pain-grid">
-        <div class="pain-card">
-          <div class="emoji">🗂️</div>
-          <h3>Your life is in 7 different apps</h3>
-          <p>Habits in one app, budget in a spreadsheet, goals on sticky notes. Nothing talks to each other and you lose the thread.</p>
-        </div>
-        <div class="pain-card">
-          <div class="emoji">📉</div>
-          <h3>Motivation fizzles by week two</h3>
-          <p>You start strong every month, then the system feels like work. Without an easy view of progress, you quietly give up.</p>
-        </div>
-        <div class="pain-card">
-          <div class="emoji">💸</div>
-          <h3>No idea where the money went</h3>
-          <p>Payday to payday, no clear picture. You mean to budget "next month" — but next month never really starts.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Features ===== -->
-  <section class="features" id="features">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">What you get</span>
-        <h2>Everything to run your life, in one kit</h2>
-        <p>Four connected systems that work together from day one — no setup headaches, no blank pages.</p>
-      </div>
-      <div class="features-grid">
-
-        <div class="feature">
-          <div class="icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="glow glow-one" aria-hidden="true"></div>
+      <div class="glow glow-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> 模型云平台</p>
+          <h1 id="hero-title">一个入口，<br><em>连接你的智能。</em></h1>
+          <p class="hero-description">付费开通后，即可在线使用 Claude、GPT、Grok、Gemini 等主流大模型。无需本地部署，随时切换适合当前任务的 AI。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://shop-28c62905-6d8b-4cc0-cc666737c8c6.golifekit.com/buy/1" target="_blank" rel="noopener">立即开始使用 <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#features">了解平台能力 <span aria-hidden="true">↓</span></a>
           </div>
-          <div>
-            <h3>Habit Tracker</h3>
-            <p>Build streaks that stick with daily &amp; weekly views, automatic completion rates, and a calendar heatmap that keeps you honest.</p>
-          </div>
+          <p class="hero-note"><span class="status-dot" aria-hidden="true"></span> 在线访问 · 多模型可选 · 持续技术支持</p>
         </div>
 
-        <div class="feature">
-          <div class="icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-          </div>
-          <div>
-            <h3>Budget &amp; Expense Log</h3>
-            <p>Log income and spending in seconds. Auto-rollup dashboards show exactly where your money goes each month — no formulas required.</p>
-          </div>
-        </div>
-
-        <div class="feature">
-          <div class="icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
-          </div>
-          <div>
-            <h3>Goal Planner</h3>
-            <p>Turn big ambitions into quarterly milestones and weekly actions, with visual progress bars that connect straight to your habits.</p>
-          </div>
-        </div>
-
-        <div class="feature">
-          <div class="icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          </div>
-          <div>
-            <h3>Life Dashboard</h3>
-            <p>One home screen ties it all together — today's habits, this month's budget, and your top goals in a single glance.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Kit contents (product list) ===== -->
-  <section class="kit" id="kit">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">What's included</span>
-        <h2>Everything in the kit</h2>
-        <p>GoLifeKit bundles four ready-to-use templates into one package. Here's exactly what you unlock for $19.</p>
-      </div>
-
-      <div class="kit-list">
-
-        <a class="kit-item" href="product.html?id=habit-tracker">
-          <div class="kit-icon">📊</div>
-          <div class="kit-body">
-            <div class="kit-head">
-              <h3>Habit Tracker</h3>
-              <span class="kit-tag">Template</span>
+        <div class="model-panel" aria-label="支持的模型">
+          <div class="panel-topbar"><span></span><span></span><span></span><p>golifekit / models</p></div>
+          <div class="panel-content">
+            <div class="panel-label">AVAILABLE MODELS <b>04</b></div>
+            <div class="model-list">
+              <div class="model-item model-claude"><span class="model-icon">C</span><div><strong>Claude</strong><small>深度分析与长文创作</small></div><i>↗</i></div>
+              <div class="model-item model-gpt"><span class="model-icon">G</span><div><strong>GPT</strong><small>通用对话与任务处理</small></div><i>↗</i></div>
+              <div class="model-item model-grok"><span class="model-icon">X</span><div><strong>Grok</strong><small>实时洞察与内容创意</small></div><i>↗</i></div>
+              <div class="model-item model-gemini"><span class="model-icon">✦</span><div><strong>Gemini</strong><small>多模态理解与协作</small></div><i>↗</i></div>
             </div>
-            <p>Build streaks that actually stick and see your consistency at a glance.</p>
-            <ul class="kit-includes">
-              <li>Daily &amp; weekly views</li>
-              <li>Calendar heatmap</li>
-              <li>Auto completion rate</li>
-            </ul>
-          </div>
-        </a>
-
-        <a class="kit-item" href="product.html?id=budget-planner">
-          <div class="kit-icon">💰</div>
-          <div class="kit-body">
-            <div class="kit-head">
-              <h3>Budget &amp; Expense Log</h3>
-              <span class="kit-tag">Template</span>
-            </div>
-            <p>Track every dollar in seconds and know exactly where your money goes.</p>
-            <ul class="kit-includes">
-              <li>Income &amp; expense log</li>
-              <li>Monthly dashboard</li>
-              <li>Category breakdown</li>
-            </ul>
-          </div>
-        </a>
-
-        <a class="kit-item" href="product.html?id=goal-planner">
-          <div class="kit-icon">🎯</div>
-          <div class="kit-body">
-            <div class="kit-head">
-              <h3>Goal Planner</h3>
-              <span class="kit-tag">Template</span>
-            </div>
-            <p>Turn big ambitions into quarterly milestones and weekly actions.</p>
-            <ul class="kit-includes">
-              <li>Quarterly milestones</li>
-              <li>Weekly action list</li>
-              <li>Progress bars</li>
-            </ul>
-          </div>
-        </a>
-
-        <a class="kit-item" href="product.html?id=life-dashboard">
-          <div class="kit-icon">📅</div>
-          <div class="kit-body">
-            <div class="kit-head">
-              <h3>Life Dashboard</h3>
-              <span class="kit-tag">Bonus</span>
-            </div>
-            <p>One home screen that ties habits, budget, and goals together.</p>
-            <ul class="kit-includes">
-              <li>Today's habits</li>
-              <li>This month's budget</li>
-              <li>Top goals at a glance</li>
-            </ul>
-          </div>
-        </a>
-
-      </div>
-
-      <div class="kit-total">
-        <span class="kit-total-text">All <strong>4 templates</strong> + setup guide &amp; quick-start video</span>
-        <span class="kit-total-price"><s>$39</s> <b>$19</b> · one-time</span>
-      </div>
-
-      <div style="text-align:center;margin-top:26px;">
-        <a href="shop.html" class="btn btn-ghost">Browse all templates →</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Preview ===== -->
-  <section class="preview" id="preview">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">A peek inside</span>
-        <h2>Beautiful, and ready the moment you open it</h2>
-        <p>Duplicate the template once and everything is pre-built. Replace the placeholder screenshots below with your real product shots.</p>
-      </div>
-      <div class="preview-frame">
-        <div class="preview-bar"><span></span><span></span><span></span></div>
-        <div class="preview-img">Product screenshot — 1600 × 900</div>
-      </div>
-      <div class="preview-thumbs">
-        <div class="thumb">Habit view</div>
-        <div class="thumb">Budget dashboard</div>
-        <div class="thumb">Goal planner</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Pricing ===== -->
-  <section class="pricing" id="pricing">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Simple pricing</span>
-        <h2>One kit. One price. Yours for life.</h2>
-        <p>No subscriptions, no upsells. Pay once and get every future update free.</p>
-      </div>
-      <div class="price-card">
-        <span class="price-badge">LAUNCH OFFER</span>
-        <h3>GoLifeKit — Complete Toolkit</h3>
-        <p class="sub">Everything you need to organize your life</p>
-        <div class="price-amount">
-          <span class="cur">$</span>
-          <span class="num">19</span>
-        </div>
-        <p class="price-old">Regular price $39</p>
-        <ul class="price-list">
-          <li>Habit Tracker, Budget, Goals &amp; Dashboard</li>
-          <li>Works on desktop &amp; mobile Notion</li>
-          <li>Free lifetime updates</li>
-          <li>Setup guide &amp; quick-start video</li>
-          <li>14-day money-back guarantee</li>
-        </ul>
-        <a href="product.html?id=complete-kit" class="btn btn-primary btn-lg">Get the Complete Kit — $19</a>
-        <p class="price-guarantee">🔒 Secure checkout · Instant access · <a href="shop.html" style="color:var(--brand);">or buy templates individually</a></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FAQ ===== -->
-  <section class="faq" id="faq">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Frequently asked questions</h2>
-        <p>Everything you might want to know before you grab the kit.</p>
-      </div>
-      <div class="faq-list">
-
-        <div class="faq-item">
-          <button class="faq-q">Do I need to know Notion to use this?
-            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-a"><p>Not at all. If you have a free Notion account, you're ready. You'll duplicate the template with one click and follow a short setup guide. No formulas or technical setup needed.</p></div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-q">How do I get the kit after I buy?
-            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-a"><p>Instantly. Right after checkout you'll receive an email with your private template link and setup guide. Click, duplicate into your own Notion, and you're set.</p></div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-q">Does it work on my phone?
-            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-a"><p>Yes. The kit works anywhere Notion works — the desktop app, any browser, and the iOS &amp; Android apps. Your data syncs automatically across every device.</p></div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-q">What's your refund policy?
-            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-a"><p>If GoLifeKit isn't right for you, email us within 14 days of purchase and we'll refund you in full — no questions asked. See our <a href="terms.html">Terms of Service</a> for details.</p></div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-q">Are updates really free?
-            <svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-a"><p>Always. Your one-time purchase includes every future improvement to the kit at no extra cost. We'll email you whenever a new version drops.</p></div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== Footer ===== -->
-  <footer class="footer">
-    <div class="wrap">
-      <div class="footer-top">
-        <div>
-          <div class="brand"><span class="logo">◆</span> GoLifeKit</div>
-          <p class="footer-about">A plug-and-play Notion toolkit that helps organized-minded people track habits, manage money, and reach their goals — all in one calm place.</p>
-        </div>
-        <div class="footer-links">
-          <div class="footer-col">
-            <h4>Product</h4>
-            <a href="#features">Features</a>
-            <a href="#preview">Preview</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#faq">FAQ</a>
-          </div>
-          <div class="footer-col">
-            <h4>Legal</h4>
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Service</a>
-          </div>
-          <div class="footer-col">
-            <h4>Contact</h4>
-            <a href="mailto:hello@golifekit.com">hello@golifekit.com</a>
+            <div class="panel-footer"><span>READY TO CONNECT</span><span>● ONLINE</span></div>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <span>© 2026 GoLifeKit. All rights reserved.</span>
-        <span>Made for people who want their life together.</span>
+    </section>
+
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> 平台能力</p>
+          <h2 id="features-title">让 AI 的选择，<br>不再成为你的负担。</h2>
+          <p>把繁琐的环境配置留在身后，把注意力留给真正重要的工作。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-card-large">
+            <div class="feature-number">01</div>
+            <div class="feature-symbol symbol-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+            <h3>主流模型，一站接入</h3>
+            <p>在一个平台内使用 Claude、GPT、Grok 与 Gemini 等模型，按任务自由选择合适的 AI 助手。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">02</div>
+            <div class="feature-symbol symbol-cloud" aria-hidden="true">☁</div>
+            <h3>在线使用，即开即用</h3>
+            <p>无需本地安装复杂环境。开通后即可通过浏览器访问，把设备资源留给你的工作。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">03</div>
+            <div class="feature-symbol symbol-support" aria-hidden="true">⌁</div>
+            <h3>服务支持，持续响应</h3>
+            <p>遇到使用问题可通过微信、小红书或邮件联系；收到请求后 24 小时内提供服务。</p>
+          </article>
+        </div>
       </div>
+    </section>
+
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container pricing-layout">
+        <div class="pricing-intro">
+          <p class="eyebrow"><span></span> 简单开通</p>
+          <h2 id="pricing-title">只为你需要的<br><em>智能体验付费。</em></h2>
+          <p>通过独角数卡选择套餐并完成开通。购买后会提供各个系统的安装脚本，帮助你一键安装 Claude Code。</p>
+        </div>
+        <article class="price-card">
+          <p class="price-card-label">GoLifeKit / Access</p>
+          <h3>模型云平台服务</h3>
+          <p class="price-copy">选择适合自己的套餐，开始在线使用多种主流 AI 模型。</p>
+          <ul class="price-list">
+            <li><span>✓</span> Claude、GPT、Grok、Gemini 等模型</li>
+            <li><span>✓</span> 浏览器在线访问</li>
+            <li><span>✓</span> 系统安装脚本支持</li>
+            <li><span>✓</span> 24 小时技术支持</li>
+          </ul>
+          <a class="button button-primary button-full" href="https://shop-28c62905-6d8b-4cc0-cc666737c8c6.golifekit.com/buy/1" target="_blank" rel="noopener">查看套餐并开始使用 <span aria-hidden="true">↗</span></a>
+          <p class="payment-note">支持 USDT（TRC20），也可联系 Hudson 协助购买。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <p class="eyebrow"><span></span> 常见问题</p>
+          <h2 id="faq-title">开始之前，<br>你可能想知道。</h2>
+          <p>如果这里没有解答你的问题，欢迎通过邮件联系 Hudson。</p>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>怎么安装？<span aria-hidden="true">+</span></summary>
+            <p>付款后可以提供各个系统的安装脚本，一键安装 Claude Code。</p>
+          </details>
+          <details>
+            <summary>怎么购买？<span aria-hidden="true">+</span></summary>
+            <p>可支持 USDT（TRC20）的方式购买，也可以通过微信或小红书私信联系购买。</p>
+          </details>
+          <details>
+            <summary>遇到问题怎么处理？<span aria-hidden="true">+</span></summary>
+            <p>可通过微信、小红书或邮件联系；收到请求后 24 小时内提供服务。</p>
+          </details>
+          <details>
+            <summary>是否能提供技术支持？<span aria-hidden="true">+</span></summary>
+            <p>可以，提供 24 小时技术支持。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta" aria-labelledby="closing-title">
+      <div class="container closing-content">
+        <p class="eyebrow"><span></span> READY WHEN YOU ARE</p>
+        <h2 id="closing-title">开始使用，<em>把 AI 变成助力。</em></h2>
+        <a class="button button-light" href="https://shop-28c62905-6d8b-4cc0-cc666737c8c6.golifekit.com/buy/1" target="_blank" rel="noopener">前往开通服务 <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="brand" href="#top" aria-label="回到页面顶部"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>GoLifeKit</span></a>
+      <p>模型云平台 · 让智能触手可及</p>
+      <div class="footer-contact"><span>联系人：Hudson</span><a href="mailto:hudsonhx@yahoo.com">hudsonhx@yahoo.com</a></div>
+      <p class="copyright">© 2026 GoLifeKit. All rights reserved.</p>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
